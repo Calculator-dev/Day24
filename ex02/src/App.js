@@ -6,11 +6,7 @@ class App extends Component {
     let myCookieData = document.cookie;
     let myLocalStorageData = localStorage.getItem("Paragon");
     let MySessionStorageData = sessionStorage.getItem("frontend");
-    return (
-      myLocalStorageData,
-      myCookieData,
-      MySessionStorageData
-    );
+    return (myLocalStorageData, myCookieData, MySessionStorageData);
   };
 
   setMyStorage = () => {
